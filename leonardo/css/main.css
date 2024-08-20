@@ -1,0 +1,19 @@
+body{
+   background-color: rgb(144, 20, 20);
+}
+
+h1{
+    font-family: Verdana;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: Spx 0px 5px rgb(41, 3, 3);
+}
+
+h4{
+    font-size: 30px;
+}
+
+img{
+    width: 500px;
+}
+
