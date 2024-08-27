@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(rgb(85, 5, 114), darkblue);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.central{
+    width: 500px;
+    background: white;
+    border: radius 10px;
+    box-shadow: 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+
+}
+.central button{
+    width: 150px;
+    background: rgb(purple, blue, darkblue);
+
+}
+img{
+    width: 250px;
+    background: rgb(75,75,197);
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
