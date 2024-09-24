@@ -1,0 +1,62 @@
+body{
+    height: 90vh; /* altura maxima */
+    background: url("../../img/uma-onca-em-frente-a-uma-fogueira-com-o-sol-brilhando_632984-47.avif") no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.data div {
+    background-color: rgba(5, 5, 5, 0.425);;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    justify-content:center ;
+    border-radius: 10px;
+}
+
+.data div:last-child {
+    font-size: 2em;
+
+}
+
+.relogio {
+
+    width: 500px;
+    background: rgba(5, 5, 5, 0.425);
+    border-radius: 20px;
+    padding: 20px; /* separação dos itens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* seperação entre os elementos (div) */
+}
+
+.relogio div {
+    background: rgba(0, 0, 0, 0.699);
+    color: rgb(255, 237, 237);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio span{
+    font-size: 80px;
+
+}

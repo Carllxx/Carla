@@ -1,0 +1,29 @@
+body{
+    height: 90vh; /* altura maxima */
+    background: url('/images/06.jpg');
+    background: url('/images/02.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.relogio {
+    width: 500px;
+    background: rgba(5, 5, 5, 0.425);
+    border-radius: 20px;
+    padding: 20px; /* separação dos itens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* seperação entre os elementos (div) */
+}
+
+.relogio div {
+    background: rgba(0, 0, 0, 0.699);
+    color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+}
